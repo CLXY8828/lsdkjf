@@ -1,0 +1,99 @@
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; SCROLLBAR-FACE-COLOR: #b1dade; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; SCROLLBAR-HIGHLIGHT-COLOR: #dcedef; SCROLLBAR-SHADOW-COLOR: #4b9da7; COLOR: #000000; SCROLLBAR-3DLIGHT-COLOR: #cccccc; SCROLLBAR-ARROW-COLOR: #035c80; SCROLLBAR-TRACK-COLOR: #efefef; FONT-FAMILY: ??¨¬?; SCROLLBAR-DARKSHADOW-COLOR: #cccccc; SCROLLBAR-BASE-COLOR: #cccccc; BACKGROUND-COLOR: #ffffff
+}
+TABLE {
+	FONT-SIZE: 12px; WIDTH: 98%; BORDER-COLLAPSE: collapse
+}
+INPUT {
+	BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #ffffff 1px solid; WIDTH: 100%; COLOR: #000000; BORDER-BOTTOM: #ffffff 1px solid; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+TD {
+	FONT-SIZE: 12px; BORDER-LEFT-COLOR: #74b3c8; BORDER-BOTTOM-COLOR: #74b3c8; BORDER-TOP-COLOR: #74b3c8; BORDER-RIGHT-COLOR: #74b3c8
+}
+TH {
+	FONT-SIZE: 12px; BORDER-LEFT-COLOR: #74b3c8; BORDER-BOTTOM-COLOR: #74b3c8; BORDER-TOP-COLOR: #74b3c8; BORDER-RIGHT-COLOR: #74b3c8
+}
+.title {
+	BACKGROUND-COLOR: #b8dced
+}
+.tabtd1 {
+	FONT-SIZE: 12px; LINE-HEIGHT: 20px; FONT-FAMILY: "ËÎÌå"
+}
+.disabled {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #cccccc 1px solid; COLOR: #000000; BORDER-BOTTOM: #cccccc 1px solid; BACKGROUND-COLOR: #dcdcdc; TEXT-DECORATION: none
+}
+.tabtd2 {
+	FONT-SIZE: 12px; LINE-HEIGHT: 20px; FONT-FAMILY: "ËÎÌå"; BACKGROUND-COLOR: #effdfe
+}
+.bgtable {
+	BORDER-RIGHT: #74b3c8 1pt solid; BORDER-TOP: #74b3c8 1pt solid; BORDER-LEFT: #74b3c8 1pt solid; BORDER-BOTTOM: #74b3c8 1pt solid; BACKGROUND-COLOR: #ffffff
+}
+.img {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+.tableright {
+	BORDER-RIGHT: 0px; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid
+}
+.tableleft {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: 1px solid
+}
+.tablecenter {
+	BORDER-TOP: 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: 1px solid; BORDER-RIGHT-STYLE: none
+}
+.tabletd {
+	BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none
+}
+.tabletd2 {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none
+}
+.tabletd3 {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none
+}
+.inputt {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: transparent
+}
+.opertbl {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BACKGROUND-IMAGE: url(../images/table/tblbg.gif); BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+.dixian {
+	BORDER-TOP-STYLE: none; BORDER-BOTTOM: #000000 1px solid; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BACKGROUND-COLOR: transparent
+}
+.henglan {
+	BACKGROUND-COLOR: #bdd7df
+}
+.topg {
+	HEIGHT: 5px
+}
+.topd {
+	HEIGHT: 0px
+}
+.imgd {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; VERTICAL-ALIGN: bottom; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+.cb {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; WIDTH: 8%; BACKGROUND-COLOR: transparent
+}
+.select {
+	BORDER-RIGHT: #444444 1px solid; BORDER-TOP: #444444 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #444444 1px solid; BORDER-BOTTOM: #444444 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.inputtag {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; WIDTH: 100%; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: transparent
+}
+.inputtagtable {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; WIDTH: 100%; BORDER-BOTTOM: medium none; BACKGROUND-COLOR: transparent
+}
+.input-list {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; WIDTH: 35%; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: transparent
+}
+.input-tree {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; WIDTH: 80%; BACKGROUND-COLOR: transparent
+}
+.textarea {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; FONT-SIZE: 12px; BORDER-LEFT: medium none; WIDTH: 100%; COLOR: #000000; BORDER-BOTTOM: medium none; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+.textarea_ {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; FONT-SIZE: 12px; BORDER-LEFT: medium none; WIDTH: 100%; COLOR: #000000; BORDER-BOTTOM: medium none; BACKGROUND-COLOR: #dcdcdc; TEXT-DECORATION: none
+}
+.select {
+	MARGIN: -2px
+}

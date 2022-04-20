@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="GBK"?> 
+<!DOCTYPE struts PUBLIC 
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN" 
+"http://struts.apache.org/dtds/struts-2.3.dtd"> 
+<struts> 
+ <include file="struts-default.xml" /> 
+ <package name="login" extends="struts-default"> 
+  <action name="bookinfo" class="com.turing.mvc2.bookinfo.BookinfoAction"> 
+ 	<result name="query" type="dispatcher">/jsp/bookinfo/list.jsp</result>
+ 	 <result name="addpage" type="dispatcher">/jsp/bookinfo/add.jsp</result>
+ 	 <result name="editpage" type="dispatcher">/jsp/bookinfo/edit.jsp</result>
+ 	  <result name="requery" type="redirect">/bookinfo!query.action</result> 
+ </action> 
+ 
+ <action name="bbs" class="com.turing.mvc2.bbs.BbsAction"> 
+ 	<result name="query" type="dispatcher">/jsp/bbs/list.jsp</result> 
+ </action>
+ <action name="img" class="com.turing.mvc2.img.ImgAction">
+  <interceptor-ref name="fileUpload"> 
+ <!-- 配置允许上传的文件类型，多个用","分隔 --> 
+ <param name="allowedTypes"> 
+ image/bmp,image/png,image/gif,image/jpeg,image/jpg ,image/x-png, image/pjpeg 
+ </param> 
+ <!-- 配置允许上传的文件大小，单位字节 --> 
+ <param name="maximumSize">65535</param> 
+ </interceptor-ref> 
+ <interceptor-ref name="defaultStack" /> 
+ <result name="download" type="stream">
+	 <param name="contentType">application/zip</param> 
+	 <param name="inputName">inputStream</param> 
+	 <param name="contentDisposition">inline;filename="${myFileFileName}"</param> 
+	 <param name="bufferSize">1024</param> 
+ </result>
+ 	<result name="query" type="dispatcher">/jsp/tx/list.jsp</result>
+ 	<result name="requery" type="redirect">/img!query.action</result>
+ 	 <result name="addpage" type="dispatcher">/jsp/tx/add.jsp</result>
+ </action> 
+ </package> 
+</struts>
