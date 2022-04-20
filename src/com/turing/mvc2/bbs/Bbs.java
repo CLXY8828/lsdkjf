@@ -7,7 +7,7 @@ package com.turing.mvc2.bbs;
 public class Bbs {
 
 	private int id	;
-	private String content	;
+	private String content;
 	private String inTime	;
 	
 	
